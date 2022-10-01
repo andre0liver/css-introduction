@@ -4,37 +4,41 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Blog</title>
+        <title>Formulário</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;1,200&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>Meu Blog</h1>
-        </header>
         <section>
-            <h2> Principais Notícias</h2>
             <article>
-                <h3>Título da Notícia</h3>
-                <small>Escrito por André Oliveira</small><br>
-                <img src="https://picsum.photos/300/200" alt="">
-            </article>
-            <article>
-                <h3>Título da Notícia</h3>
-                <small>Escrito por André Oliveira</small><br>
-                <img src="https://picsum.photos/300/200" alt="">
-            </article>
-            <article>
-                <h3>Título da Notícia</h3>
-                <small>Escrito por André Oliveira</small><br>
-                <img src="https://picsum.photos/300/200" alt="">
+                <h3>Formulário de Admissão</h3>
+                <form action="form.php" method="POST">
+                    <label for="">Nome Completo</label><br>
+                    <input type="text"><br>
+                    <label for="">Telefone</label><br>
+                    <input type="tel"><br>
+                    <label for="">Email</label><br>
+                    <input type="email"><br>
+                    <label for="">Gênero</label><br>
+                    <select name="" id="">
+                        <option value="">Masculino</option>
+                        <option value="">Feminino</option>
+                    </select><br>
+                    <label for="">Data de Nascimento</label><br>
+                    <input type="date"><br>
+                    <label for="">Curso</label><br>
+                    <select name="" id="">
+                        <option value="">Análise e Desenvolvimento de Sistemas</option>
+                        <option value="">Sistemas de Informação</option>
+                        <option value="">Ciência da Computação</option>
+                    </select><br>
+                    <label for="">Conte-nos suas expectativas</label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                    <input type="submit">
+                </form>
             </article>
         </section>
-        <footer>
-            <p>
-                <a href="#">Contato</a>
-                <a href="#">Sobre Nós</a>
-            </p>
-            <p>Criado por <cite>André Oliveira</cite></p>
-        </footer>
     </body>
 </html>

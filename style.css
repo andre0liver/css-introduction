@@ -1,0 +1,28 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+section {
+    background: rgb(6,83,55);
+    background: linear-gradient(0deg, rgba(6,83,55,1) 0%, rgba(11,154,108,1) 35%, rgba(0,212,255,1) 100%);  
+    width: 350px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: auto;
+}
+
+article{
+   width: 100%;
+   margin: auto; 
+   text-align: center;
+}
+
+label {
+
+}
+
+input, select, textarea {
+    border-radius: 10px;
+}
